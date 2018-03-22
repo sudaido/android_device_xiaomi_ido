@@ -82,10 +82,10 @@ BOARD_GLOBAL_CFLAGS += -DCAMERA_VENDOR_L_COMPAT
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
 # MKHW
-BOARD_USES_MOKEE_HARDWARE := true
+BOARD_USES_CYANOGEN_HARDWARE := true
 BOARD_HARDWARE_CLASS += \
-    hardware/mokee/mkhw \
-    device/xiaomi/ido/mkhw
+    hardware/cyanogen/cmhw \
+    device/xiaomi/ido/cmhw
 
 # CNE
 BOARD_USES_QCNE := true
